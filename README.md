@@ -1,5 +1,5 @@
 # Kali-Linux-Dockerfile
-A simple dockerfile which allows you to create a _docker image_ starting from the latest official one of **Kali Linux** and including some useful tools.
+A simple dockerfile which allows you to build a _docker image_ starting from the latest official one of **Kali Linux** and including some useful tools.
 
 ## Included tools
 These are the main **tools** which are included:
@@ -23,7 +23,7 @@ _Python-Pip_ and _NodeJS-NPM_ are included, too.
 
 ### Usage
 
-In order to create an _image_ from this dockerfile, just go on the folder where it is located and simple open your favourite **Terminal**, typing as follows:
+In order to build an _image_ from this dockerfile, just go on the folder where it is located and simple open your favourite **Terminal**, typing as follows:
 
 ```sh
 docker build [-t your_image_name] .

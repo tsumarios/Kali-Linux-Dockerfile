@@ -1,5 +1,5 @@
 # Kali-Linux-Dockerfile
-A simple dockerfile which allows you to create a _docker image_ starting from latest official image of Kali Linux and including some useful tools.
+A simple dockerfile which allows you to create a _docker image_ starting from the latest official one of Kali Linux and including some useful tools.
 
 ## Included tools
 These are the main tools which are included:

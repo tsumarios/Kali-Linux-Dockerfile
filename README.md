@@ -31,7 +31,7 @@ docker build [-t your_image_name] .
 
 ##### DockerHub
 
-You can also pull the image from the DockerHub repository by opening your favourite Terminal and typing:
+You can also pull the image from the DockerHub [repository](https://cloud.docker.com/u/zmrdevj/repository/docker/zmrdevj/kali-linux) by opening your favourite Terminal and typing:
 
 ```sh
 docker pull zmrdevj/kali-linux

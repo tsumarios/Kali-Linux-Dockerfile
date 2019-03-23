@@ -19,7 +19,7 @@ Note that you can _add/modify/delete_ configuration files by doing the related c
 ### Other useful things
 
 Also [zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) is installed as default shell. You can add some changes directly in the [.zshrc](https://github.com/zMrDevJ/Kali-Linux-Dockerfile/blob/master/config/.zshrc) file, such as setting your favourite theme.
-Python-Pip and NodeJS-NPM are included, too.
+_Python-Pip_ and _NodeJS-NPM_ are included, too.
 
 ### Usage
 

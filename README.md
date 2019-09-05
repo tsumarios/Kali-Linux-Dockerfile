@@ -36,7 +36,11 @@ You can also _pull_ the image from the DockerHub [repository](https://cloud.dock
 ```sh
 docker pull zmrdevj/kali-linux
 ```
-####
+(_Warning_: this image won't be probably updated within the latest Kali versions and the latest tools versions, so this is not the recommended way)
+
+##### More info
+
+Check out [Kali Linux on a Docker container: the easiest way](https://medium.com/@zMrDevJ/kali-linux-on-docker-container-the-easiest-way-e5a551348788) for more detailed info.
 
 #### Contacts
 

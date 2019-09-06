@@ -12,6 +12,9 @@ COPY config/.zshrc /root/.zshrc
 # Install Kali Linux "Top 10" metapackage and a few useful tools
 RUN apt-get -y install kali-linux-top10 net-tools netcat exploitdb man-db dirb nikto wpscan uniscan nodejs npm python-pip tor proxychains
 
+# Install some useful hardware packages
+RUN apt-get -y install pciutils usbutils 
+
 # Configure proxychains with Tor
 COPY config/proxychains.conf /etc/proxychains.conf
 

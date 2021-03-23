@@ -46,7 +46,7 @@ Check out [Kali Linux on a Docker container: the easiest way](https://medium.com
 
 - Email: marioraciti@pm.me
 - LinkedIn: linkedin.com/in/marioraciti
-- Twitter: twitter.com/zMrSec
+- Twitter: twitter.com/tsumarios
 
 ### Todos
 

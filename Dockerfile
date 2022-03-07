@@ -10,7 +10,7 @@ RUN apt -y install git zsh && wget --no-check-certificate https://github.com/rob
 COPY config/.zshrc /root/.zshrc
 
 # Install Kali Linux "Top 10" metapackage and a few useful tools
-RUN apt -y install vim kali-linux-top10 net-tools whois netcat exploitdb man-db dirb nikto wpscan uniscan nodejs npm python3-pip tor proxychains
+RUN apt -y install vim kali-tools-top10 net-tools whois netcat-traditional exploitdb man-db dirb nikto wpscan uniscan nodejs npm python3-pip tor proxychains
 
 # Install some useful hardware packages
 RUN apt -y install pciutils usbutils 

@@ -14,7 +14,7 @@ RUN apt -y install curl wget vim git net-tools whois netcat-traditional pciutils
 RUN apt -y install python3-pip golang nodejs npm
 
 # Install Kali Linux "Top 10" metapackage and a few cybersecurity useful tools
-RUN apt -y install kali-tools-top10 exploitdb man-db dirb nikto wpscan uniscan lsof apktool dex2jar ltrace strace binwalk
+RUN DEBIAN_FRONTEND=noninteractive apt -y install kali-tools-top10 exploitdb man-db dirb nikto wpscan uniscan lsof apktool dex2jar ltrace strace binwalk
 
 # Install Tor and proxychains, then configure proxychains with Tor
 RUN apt -y install tor proxychains

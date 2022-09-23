@@ -1,7 +1,9 @@
 # Kali-Linux-Dockerfile
+
 A simple dockerfile which allows you to build a _docker image_ starting from the latest official one of **Kali Linux** and including some useful tools.
 
 ## Included tools
+
 These are the main **tools** which are included:
 
 - Kali Linux [Top 10](https://tools.kali.org/kali-metapackages) metapackage
@@ -31,7 +33,7 @@ docker build [-t your_image_name] .
 
 ##### More info
 
-Check out [Kali Linux on a Docker container: the easiest way](https://tsumarios.medium.com/kali-linux-on-docker-container-the-easiest-way-e5a551348788) for more detailed info.
+Check out [Kali Linux on a Docker container: the easiest way](https://tsumarios.github.io/blog/2022/09/17/kali-linux-docker-container/) for more detailed info.
 
 #### Contacts
 
